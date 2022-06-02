@@ -3,7 +3,7 @@
     font-weight: 700;
   }
 }
-  
+
 @media screen and (min-width: 768px) {
   .middle {
     background-image: url(images/Background.png);
@@ -12,7 +12,7 @@
     height: 1000px;
   }
 }
-  
+
 @media screen and (min-width: 768px) {
   .menu {
     display: flex;
@@ -162,7 +162,6 @@
   }
 }    
 
-
 @media screen and (min-width: 768px) {
   .cardtitle {
     display: flex;
@@ -192,7 +191,7 @@
     font-weight: 600;
     line-height: 5px;
     letter-spacing: 0.03em;
-    list-style: none; 
+    list-style: none;
   }
 }
 
@@ -340,7 +339,6 @@
     width: 100%;
     background-color: #ebf0ee;
     height: 352px;
-    width: 100%;
     outline: 1px solid #d0d9d4;
     border-radius: 10px;
     margin-bottom: -50px;
@@ -665,14 +663,14 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .submit-button {
     display: flex;
     justify-content: center;
     padding-top: 13px;
+    margin-left: 595px;
     height: 48px;
-    width: 30%;
+    width: 9%;
     left: 99px;
     top: 282px;
     border-radius: 4px;
@@ -698,13 +696,13 @@
 }
 
 @media screen and (min-width: 768px) {
-  html{
+  html {
     overflow-x: hidden;
   }
 }
 
 @media screen and (min-width: 768px) {
-  body{
+  body {
     overflow-x: hidden;
     overflow-y: hidden;
   }
