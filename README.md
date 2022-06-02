@@ -1,13 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio
+# Desktop Portfolio
 
 > A flexbox webpage
 
 
 ## Built With
 
-- HTML, CSS, and Flexbox
+- HTML, CSS, Flexbox and, Media Query
 
 ## Author
 
