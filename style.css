@@ -1,10 +1,10 @@
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   * {
     font-weight: 700;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .menu {
     display: flex;
     height: 28px;
@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .n0 {
     display: flex;
     height: 28px;
@@ -40,51 +40,53 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width:480px) {
   .n1 {
     display: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .n2 {
     display: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .n3 {
     display: none;
   }
 }
 
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .row {
     display: flex;
     margin-left: -40px;
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .column {
     margin-left: 100px;
     margin-right: -80px;
   }
+}
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   a {
     color: inherit;
     text-decoration: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   li a:hover {
     background-color: rgb(109, 171, 207);
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   p {
     display: flex;
     height: 164px;
@@ -103,7 +105,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .toolbar {
     height: 12px;
     width: 100%;
@@ -111,7 +113,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   h1 {
     display: flex;
     height: 0;
@@ -131,7 +133,7 @@
 }
 
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .secondtitle {
     display: flex;
     height: 70px;
@@ -150,7 +152,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .middle {
     width: 100%;
     height: 647.9967651367188px;
@@ -160,7 +162,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .middle3 {
     width: 100%;
     background-image: url(images/background2.png);
@@ -173,13 +175,13 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   ul {
     list-style: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .disabled {
     margin-top: -60px;
     margin-left: 160px;
@@ -188,13 +190,13 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .spacing {
     margin-top: 60px;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .card1 {
     display: grid;
     grid-column-start: 2;
@@ -206,7 +208,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .header1 {
     width: 100%;
     background-color: #ebf0ee;
@@ -214,7 +216,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .subtitle0 {
     display: flex;
     justify-content: center;
@@ -234,13 +236,13 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .subtitle2 {
     display: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .subtitle3 {
     display: flex;
     justify-content: center;
@@ -260,7 +262,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .text {
     display: flex;
     justify-content: center;
@@ -278,13 +280,13 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .text0 {
     display: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   h3 {
     height: 57px;
     width: 295px;
@@ -302,20 +304,20 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .secondtitle1 {
     padding-top: 90px;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .background3 {
     width: 100%;
     margin-top: 70px;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .java2 {
     background-color: white;
     padding: 10px;
@@ -325,7 +327,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .list2 {
     display: flex;
     width: 100%;
@@ -340,7 +342,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .list3 {
     display: flex;
     width: 100%;
@@ -355,7 +357,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .java1 {
     background-color: white;
     padding: 10px;
@@ -366,7 +368,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ruby1 {
     background-color: white;
     padding: 10px;
@@ -374,7 +376,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .html1 {
     background-color: white;
     padding: 10px;
@@ -383,7 +385,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .css2 {
     background-color: white;
     padding: 10px;
@@ -391,14 +393,14 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .css3 {
     background-color: white;
     padding: 10px;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .css4 {
     background-color: white;
     padding: 10px;
@@ -406,7 +408,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .mainbutton {
     display: flex;
     justify-content: center;
@@ -414,7 +416,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .button {
     height: 48px;
     left: 92px;
@@ -434,13 +436,13 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .button :hover {
     background-color: #d0d9d4;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .card {
     display: grid;
     grid-auto-flow: row;
@@ -454,7 +456,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .card2 {
     display: grid;
     grid-auto-flow: row;
@@ -468,7 +470,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .blank {
     display: flex;
     background-color: #ebf0ee;
@@ -478,7 +480,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .blank2 {
     display: flex;
     background-color: #ebf0ee;
@@ -490,7 +492,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .cardtitle {
     display: flex;
     align-items: center;
@@ -504,7 +506,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .cardtitle2 {
     display: flex;
     align-items: center;
@@ -516,7 +518,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .cardtitle0 {
     display: flex;
     align-items: center;
@@ -528,7 +530,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .cardtitle3 {
     display: flex;
     align-items: center;
@@ -540,7 +542,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .cardtitle4 {
     display: flex;
     align-items: center;
@@ -552,7 +554,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ul1 {
     display: flex;
     width: 100%;
@@ -567,7 +569,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ul2 {
     display: flex;
     width: 100%;
@@ -582,7 +584,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ruby2 {
     width: 108px;
     margin-left: -23px;
@@ -593,7 +595,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ruby3 {
     width: 65px;
     margin-left: -23px;
@@ -604,7 +606,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ruby4 {
     width: 63px;
     margin-left: -23px;
@@ -615,7 +617,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ruby5 {
     width: 50px;
     margin-left: -33px;
@@ -626,7 +628,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .css6 {
     background-color: white;
     padding: 10px;
@@ -636,7 +638,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .css1 {
     background-color: white;
     padding: 10px;
@@ -646,7 +648,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .terminal1 {
     width: 55px;
     margin-left: -20px;
@@ -658,7 +660,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .css0 {
     background-color: #ebf0ee;
     padding: 10px;
@@ -667,7 +669,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .java0 {
     background-color: #ebf0ee;
     padding: 10px;
@@ -676,7 +678,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .html0 {
     background-color: #ebf0ee;
     padding: 10px;
@@ -687,7 +689,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .selenium1 {
     background-color: white;
     padding: 10px;
@@ -697,7 +699,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ul0 {
     display: flex;
     width: 100%;
@@ -711,7 +713,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .ul3 {
     display: flex;
     width: 100%;
@@ -726,7 +728,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .cards1 {
     display: flex;
     flex-wrap: wrap;
@@ -735,7 +737,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .button1 {
     display: flex;
     height: 48px;
@@ -759,13 +761,13 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .button1 :hover {
     background-color: #d0d9d4;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .button2 {
     display: flex;
     justify-content: center;
@@ -789,13 +791,13 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .button2 :hover {
     background-color: #d0d9d4;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .languages {
     margin-bottom: -150px;
     padding-left: 75px;
@@ -805,7 +807,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .frameworks {
     margin-bottom: -150px;
     padding-left: 75px;
@@ -815,7 +817,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .skills {
     margin-bottom: -150px;
     padding-left: 75px;
@@ -825,7 +827,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .item2 {
     display: flex;
     align-items: flex-end;
@@ -834,19 +836,19 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .background3 {
     display: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .background4 {
     display: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .background1 {
     background-image: url(images/items1.png);
     height: 400px;
@@ -855,7 +857,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .background2 {
     background-image: url(images/items2.png);
     height: 150px;
@@ -864,19 +866,19 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .form-container {
     width: 100%;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .form-header {
     display: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .form-header2 {
     height: 363px;
     width: 100%;
@@ -892,7 +894,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .form-list {
     display: grid;
     flex-wrap: wrap;
@@ -902,13 +904,13 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .input-list {
    display: none;
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .username0 {
     border-radius: 4px;
     width: 166%;
@@ -922,7 +924,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .username {
     border-radius: 4px;
     width: 166%;
@@ -936,7 +938,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .email {
     border-radius: 4px;
     width: 166%;
@@ -950,7 +952,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .textarea {
     border-radius: 4px;
     width: 165%;
@@ -964,7 +966,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .submit-button {
     display: flex;
     justify-content: center;
@@ -986,7 +988,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .row2 {
     display: flex;
     margin: left;
@@ -996,7 +998,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .footer {
     background-image: url(images/frame.png);
     background-repeat: no-repeat;
@@ -1008,7 +1010,7 @@
   }
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .myemail {
     padding-left: 90px;
     font-family: inter, sans-serif;
@@ -1446,7 +1448,6 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
   .ul0 {
     display: flex;
@@ -1831,5 +1832,12 @@
 @media screen and (min-width: 768px) {
   .myemail {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .column {
+    margin-left: 100px;
+    margin-right: -80px;
   }
 }
