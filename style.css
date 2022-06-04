@@ -1059,8 +1059,23 @@
     list-style: none;
     color: #172b4d;
     margin-left: -60px;
+    animation-name: myFade; 
+    animation-iteration-count: 1; 
+    animation-timing-function: ease-in; 
+    animation-duration: 3s; 
   }
 }
+
+@media screen and (min-width: 768px) { 
+  @keyframes myFade { 
+    0% { 
+      opacity: 0; 
+    } 
+    100% { 
+      opacity: 1; 
+    } 
+  } 
+} 
 
 @media screen and (min-width: 768px) {
   .n0 {
