@@ -1425,7 +1425,7 @@
 
 @media screen and (min-width: 768px) {
   .button2 {
-    font-size: 17px;
+    font-size: 15px;
     height: 48px;
     border-radius: 4px;
     color: #fff;
@@ -1766,7 +1766,7 @@
 
 @media screen and (min-width: 768px) {
   .real-button {
-    font-size: 17px;
+    font-size: 15px;
     height: 48px;
     border-radius: 4px;
     color: #fff;
