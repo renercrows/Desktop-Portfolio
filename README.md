@@ -4,10 +4,6 @@
 
 > A flexbox webpage
 
-## Online Webpage
-
-- https://renercrows.github.io/Desktop-Portdolio/
-
 ## Built With
 
 - HTML, CSS, Flexbox and, Media Query
