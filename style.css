@@ -390,6 +390,7 @@
   .html1 {
     background-color: white;
     padding: 10px;
+    border-radius: 10px;
     margin-right: 8px;
     color: #36b37e;
   }
@@ -609,9 +610,9 @@
   .ruby3 {
     width: 65px;
     margin-left: -23px;
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
   }
 }
@@ -620,9 +621,9 @@
   .ruby4 {
     width: 63px;
     margin-left: -23px;
-    background-color: white;
+    background-color: rgb(96, 150, 95);white;
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
   }
 }
@@ -631,18 +632,18 @@
   .ruby5 {
     width: 50px;
     margin-left: -33px;
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;;
     border-radius: 10px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .css6 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
     width: 85px;
   }
@@ -650,9 +651,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .css1 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
     width: 40px;
   }
@@ -662,9 +663,9 @@
   .terminal1 {
     width: 55px;
     margin-left: -20px;
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     font-family: init, sans-serif;
     border-radius: 10px;
   }
@@ -793,8 +794,8 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
-    background-color: #36b37f;
-    color: white;
+    background-color: rgb(96, 150, 95);
+    color: #1e1d1c;
     margin-left: 100px;
     margin-top: -20px;
     border: none;
@@ -992,11 +993,11 @@
     height: 48px;
     padding-bottom: 10px;
     border-radius: 4px;
-    background-color: #36b37f;
+    background-color: rgb(96, 150, 95);
     font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 500;
-    color: #fff;
+    color: #1e1d1c;
     border: none;
   }
 }
@@ -1321,7 +1322,7 @@
   .button1 {
     display: flex;
     height: 48px;
-    width: 36%;
+    width: 38%;
     left: 92px;
     top: 13px;
     border-radius: 4px;
@@ -1329,12 +1330,12 @@
     margin-left: 110px;
     align-items: center;
     font-family: Inter, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: white;
-    background-color: #36b37f;
+    color: #1e1d1c;
+    background-color: rgb(96, 150, 95);
     margin-top: 30px;
     border: none;
   }
@@ -1428,8 +1429,8 @@
     font-size: 15px;
     height: 48px;
     border-radius: 4px;
-    color: #fff;
-    background-color: #36b37f;
+    color: #1e1d1c;
+    background-color: rgb(96, 150, 95);
     border: none;
   }
 }
@@ -1494,9 +1495,9 @@
   .ruby3 {
     width: 65px;
     margin-left: -15px;
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
   }
 }
@@ -1505,9 +1506,9 @@
   .ruby4 {
     width: 63px;
     margin-left: -13px;
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
   }
 }
@@ -1516,18 +1517,18 @@
   .ruby5 {
     width: 50px;
     margin-left: -25px;
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .css6 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
     width: 85px;
   }
@@ -1535,9 +1536,9 @@
 
 @media screen and (min-width: 768px) {
   .css1 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
     width: 40px;
   }
@@ -1545,11 +1546,11 @@
 
 @media screen and (min-width: 768px) {
   .java1 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);white;
     padding: 10px;
     background-position: 20px 10px, 150px 10px;
     margin-right: 8px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
   }
 }
@@ -1572,10 +1573,11 @@
 
 @media screen and (min-width: 768px) {
   .html1 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
+    border-radius: 10px;
     margin-right: 8px;
-    color: #36b37e;
+    color: #1e1d1c;
   }
 }
 
@@ -1599,9 +1601,9 @@
   .terminal1 {
     width: 55px;
     margin-left: -20px;
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     font-family: init, sans-serif;
     border-radius: 10px;
   }
@@ -1638,10 +1640,10 @@
 
 @media screen and (min-width: 768px) {
   .selenium1 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);
     padding: 10px;
     margin-right: 10px;
-    color: #36b37e;
+    color: #1e1d1c;
     border-radius: 10px;
   }
 }
@@ -1769,8 +1771,8 @@
     font-size: 15px;
     height: 48px;
     border-radius: 4px;
-    color: #fff;
-    background-color: #36b37f;
+    color: #1e1d1c;
+    background-color: rgb(96, 150, 95);
     border: none;
     margin-left: -320px;
   }
