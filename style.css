@@ -764,8 +764,8 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: white;
-    background-color: #36b37f;
+    color: #1E1D1C;
+    background-color: rgb(96, 150, 95);
     margin-top: 30px;
     border: none;
   }
