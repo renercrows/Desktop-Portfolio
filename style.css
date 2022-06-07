@@ -369,11 +369,11 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .java1 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);white;
+    color: #1e1d1c;
     padding: 10px;
     background-position: 20px 10px, 150px 10px;
     margin-right: 8px;
-    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -388,11 +388,11 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .html1 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);white;
+    color: #1e1d1c;
     padding: 10px;
     border-radius: 10px;
     margin-right: 8px;
-    color: #36b37e;
   }
 }
 
@@ -702,10 +702,10 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .selenium1 {
-    background-color: white;
+    background-color: rgb(96, 150, 95);white;
+    color: #1e1d1c;
     padding: 10px;
     margin-right: 10px;
-    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -752,7 +752,7 @@
   .button1 {
     display: flex;
     height: 48px;
-    width: 40%;
+    width: 41%;
     left: 92px;
     top: 13px;
     border-radius: 4px;
@@ -1547,10 +1547,10 @@
 @media screen and (min-width: 768px) {
   .java1 {
     background-color: rgb(96, 150, 95);white;
+    color: #1e1d1c;
     padding: 10px;
     background-position: 20px 10px, 150px 10px;
     margin-right: 8px;
-    color: #1e1d1c;
     border-radius: 10px;
   }
 }
