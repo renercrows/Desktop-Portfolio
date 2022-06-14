@@ -14,6 +14,29 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .visibility {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #clickme {
+    width: 10%;
+    height:200px;
+    background: url('images/Union.png') no-repeat;
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #clickme.active{
+    background-image:url('images/Enabled.png');
+    margin-top: -13px;
+    margin-left: -10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
@@ -39,6 +62,29 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .second-menu {
+    position: absolute;
+    width: 90%;
+    left: -30px;
+    top: 70px;
+    list-style: none;
+    background-image: url(images/Overlay.png);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main-menu {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .second-menu li {
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .n0 {
     display: flex;
     height: 28px;
@@ -49,24 +95,6 @@
     font-weight: 600;
     margin-left: -40px;
     line-height: 28px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .n1 {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .n2 {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .n3 {
-    display: none;
   }
 }
 
@@ -369,11 +397,11 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .java1 {
-    background-color: rgb(96, 150, 95);white;
-    color: #1e1d1c;
+    background-color: white;
     padding: 10px;
     background-position: 20px 10px, 150px 10px;
     margin-right: 8px;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -388,11 +416,10 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .html1 {
-    background-color: rgb(96, 150, 95);white;
-    color: #1e1d1c;
+    background-color: white;
     padding: 10px;
-    border-radius: 10px;
     margin-right: 8px;
+    color: #36b37e;
   }
 }
 
@@ -610,9 +637,9 @@
   .ruby3 {
     width: 65px;
     margin-left: -23px;
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -621,9 +648,9 @@
   .ruby4 {
     width: 63px;
     margin-left: -23px;
-    background-color: rgb(96, 150, 95);white;
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -632,18 +659,18 @@
   .ruby5 {
     width: 50px;
     margin-left: -33px;
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .css6 {
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
     width: 85px;
   }
@@ -651,9 +678,9 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .css1 {
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
     width: 40px;
   }
@@ -663,9 +690,9 @@
   .terminal1 {
     width: 55px;
     margin-left: -20px;
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     font-family: init, sans-serif;
     border-radius: 10px;
   }
@@ -702,10 +729,10 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .selenium1 {
-    background-color: rgb(96, 150, 95);white;
-    color: #1e1d1c;
+    background-color: white;
     padding: 10px;
     margin-right: 10px;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -752,7 +779,7 @@
   .button1 {
     display: flex;
     height: 48px;
-    width: 41%;
+    width: 40%;
     left: 92px;
     top: 13px;
     border-radius: 4px;
@@ -760,13 +787,13 @@
     margin-left: 90px;
     align-items: center;
     font-family: Inter, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #1E1D1C;
-    background-color: rgb(96, 150, 95);
+    color: white;
+    background-color: #36b37f;
     margin-top: 30px;
     border: none;
   }
@@ -794,8 +821,8 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
-    background-color: rgb(96, 150, 95);
-    color: #1e1d1c;
+    background-color: #36b37f;
+    color: white;
     margin-left: 100px;
     margin-top: -20px;
     border: none;
@@ -993,11 +1020,11 @@
     height: 48px;
     padding-bottom: 10px;
     border-radius: 4px;
-    background-color: rgb(96, 150, 95);
+    background-color: #36b37f;
     font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 500;
-    color: #1e1d1c;
+    color: #fff;
     border: none;
   }
 }
@@ -1322,7 +1349,7 @@
   .button1 {
     display: flex;
     height: 48px;
-    width: 38%;
+    width: 34%;
     left: 92px;
     top: 13px;
     border-radius: 4px;
@@ -1330,12 +1357,12 @@
     margin-left: 110px;
     align-items: center;
     font-family: Inter, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #1e1d1c;
-    background-color: rgb(96, 150, 95);
+    color: white;
+    background-color: #36b37f;
     margin-top: 30px;
     border: none;
   }
@@ -1429,8 +1456,8 @@
     font-size: 15px;
     height: 48px;
     border-radius: 4px;
-    color: #1e1d1c;
-    background-color: rgb(96, 150, 95);
+    color: #fff;
+    background-color: #36b37f;
     border: none;
   }
 }
@@ -1495,9 +1522,9 @@
   .ruby3 {
     width: 65px;
     margin-left: -15px;
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -1506,9 +1533,9 @@
   .ruby4 {
     width: 63px;
     margin-left: -13px;
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -1517,18 +1544,18 @@
   .ruby5 {
     width: 50px;
     margin-left: -25px;
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .css6 {
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
     width: 85px;
   }
@@ -1536,9 +1563,9 @@
 
 @media screen and (min-width: 768px) {
   .css1 {
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
     width: 40px;
   }
@@ -1546,11 +1573,11 @@
 
 @media screen and (min-width: 768px) {
   .java1 {
-    background-color: rgb(96, 150, 95);white;
-    color: #1e1d1c;
+    background-color: white;
     padding: 10px;
     background-position: 20px 10px, 150px 10px;
     margin-right: 8px;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -1573,11 +1600,10 @@
 
 @media screen and (min-width: 768px) {
   .html1 {
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    border-radius: 10px;
     margin-right: 8px;
-    color: #1e1d1c;
+    color: #36b37e;
   }
 }
 
@@ -1601,9 +1627,9 @@
   .terminal1 {
     width: 55px;
     margin-left: -20px;
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     font-family: init, sans-serif;
     border-radius: 10px;
   }
@@ -1640,10 +1666,10 @@
 
 @media screen and (min-width: 768px) {
   .selenium1 {
-    background-color: rgb(96, 150, 95);
+    background-color: white;
     padding: 10px;
     margin-right: 10px;
-    color: #1e1d1c;
+    color: #36b37e;
     border-radius: 10px;
   }
 }
@@ -1771,8 +1797,8 @@
     font-size: 15px;
     height: 48px;
     border-radius: 4px;
-    color: #1e1d1c;
-    background-color: rgb(96, 150, 95);
+    color: #fff;
+    background-color: #36b37f;
     border: none;
     margin-left: -320px;
   }
@@ -1891,5 +1917,21 @@
     text-align: center;
     padding-top: 130px;
     color: #344563;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .second-menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+    margin-right: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .close-img {
+    display: none;
   }
 }
