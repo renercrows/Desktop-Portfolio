@@ -8,12 +8,12 @@ const menuTgl = () => {
   menu.classList.toggle('visibility');
 };
 
-img.addEventListener("click", menuTgl);
+img.addEventListener('click', menuTgl);
 
 listItem.forEach((child) => {
   child.addEventListener('click', menuTgl);
 });
 
-document.getElementById('clickme').onclick = function (e) {
+document.getElementById('clickme').onclick = function click () {
   this.classList.toggle('active');
 };
