@@ -237,7 +237,6 @@
     height: 400px;
     width: 100%;
     outline: 1px solid #24a1fa;
-    outline-width: 100%;
   }
 }
 
@@ -1021,7 +1020,6 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .row2 {
     display: flex;
-    margin: left;
     background-position-x: right;
     margin-left: -45px;
     margin-top: 0;
@@ -1072,7 +1070,7 @@
     justify-content: center;
     font-family: Inter, sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: 28px;
     gap: 60px;
     list-style: none;
@@ -1840,8 +1838,7 @@
 
 @media screen and (min-width: 768px) {
   .form1 {
-    display: left;
-    flex-direction: center;
+    display: flex;
     width: 100%;
     background-image: url(images/item4.png);
     background-repeat: no-repeat;
