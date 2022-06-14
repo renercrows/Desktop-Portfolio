@@ -14,6 +14,6 @@ listItem.forEach((child) => {
   child.addEventListener('click', menuTgl);
 });
 
-document.getElementById('clickme').onclick = function click () {
+document.getElementById('clickme').onclick = function click() {
   this.classList.toggle('active');
 };
