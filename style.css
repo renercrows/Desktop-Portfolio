@@ -22,15 +22,15 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   #clickme {
     width: 10%;
-    height:200px;
+    height: 200px;
     background: url('images/Union.png') no-repeat;
     position: absolute;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  #clickme.active{
-    background-image:url('images/Enabled.png');
+  #clickme.active {
+    background-image: url('images/Enabled.png');
     margin-top: -13px;
     margin-left: -10px;
   }
@@ -53,7 +53,6 @@
     display: flex;
     height: 28px;
     width: 100%;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -89,7 +88,6 @@
     display: flex;
     height: 28px;
     width: 100%;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -133,7 +131,6 @@
     left: 24px;
     top: 314px;
     margin-top: 58px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -160,7 +157,6 @@
     left: 24px;
     top: 64px;
     padding-top: 70px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -178,7 +174,6 @@
     width: 100%;
     left: 24px;
     top: 0;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -262,7 +257,6 @@
     width: 100%;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -289,7 +283,6 @@
     padding-top: 80px;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-weight: 700px;
@@ -308,7 +301,6 @@
     width: 100%;
     left: 0;
     top: 72px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -330,7 +322,6 @@
     width: 295px;
     left: 16px;
     top: 16px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -814,7 +805,6 @@
     width: 50%;
     left: 12px;
     top: 12px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 500;
@@ -923,7 +913,6 @@
     text-align: center;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     color: #172b4d;
     font-family: inter, sans-serif;
     font-size: 40px;
@@ -1081,7 +1070,6 @@
     height: 18px;
     width: 100%;
     justify-content: center;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -1145,7 +1133,6 @@
     left: 24px;
     top: 64px;
     padding-top: 70px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -1163,7 +1150,6 @@
     width: 100%;
     left: 24px;
     top: 0;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -1183,7 +1169,6 @@
     left: 24px;
     top: 314px;
     margin-top: 5px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -1225,7 +1210,6 @@
     justify-content: center;
     height: 48px;
     width: 100%;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -1377,7 +1361,6 @@
     padding-top: 80px;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 40px;
     font-weight: 700px;
@@ -1402,7 +1385,6 @@
     width: 100%;
     left: 0;
     top: 72px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -1683,7 +1665,6 @@
     float: left;
     left: 0;
     top: 0;
-    border-radius: nullpx;
     color: #172b4d;
     font-family: inter, sans-serif;
     font-size: 30px;
@@ -1908,7 +1889,6 @@
     position: sticky;
     left: 16px;
     top: 16px;
-    border-radius: nullpx;
     font-family: Inter, sans-serif;
     font-size: 24px;
     font-weight: 600;
