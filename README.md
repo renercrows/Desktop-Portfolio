@@ -2,7 +2,7 @@
 
 # Desktop Portfolio
 
-> A flexbox webpage
+> A responsive flexbox webpage that has accessibility.
 
 ## Online Webpage
 - https://renercrows.github.io/Desktop-Portdolio/

@@ -10,13 +10,19 @@
 <body>
     <section class="middle">
         <div class="navbar">
-            <ul class="menu">
-                <li class="n0"><a href="">Welcome</a></li>
-                <li class="union0"><img src="images/Union.png" alt="toolbar"></li>
-                <li class="n1"><a href="">Portfolio</a></li>
-                <li class="n2"><a href="">About</a></li>
-                <li class="n3"><a href="">Contact</a></li>
-            </ul>
+            <div class="menu">
+                <a class="nav-logo" href="#">Welcome</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
         <div class="middle3">
             <div>
@@ -43,7 +49,7 @@
             </ul>
         </div>
     </section>
-    <section class="maincards">
+    <section class="maincards" id="portfolio">
         <div class="spacing">
             <a class="disabled" href=""><img src="images/Disabled.png" alt="next"></a>
         </div>
@@ -143,7 +149,7 @@
     </section>
     <section class="middle2">
         <div class="background2">
-                <h2 class="subtitle3">About me</h2>
+                <h2 class="subtitle3" id="about">About me</h2>
             <div class="background1">
                 <p class="text">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 <p class="text0">I can help you build a product , feature or website Look through some of my work and<br>experience! If you like what you see and have a project you need coded,<br>don’t hestiate to contact me.</p>
@@ -200,7 +206,7 @@
         </div>             
     </div>
     <form class="form1" action="https://formspree.io/f/xqknnjke" method="post">
-        <section class="section1">
+        <section class="section1" id="contact">
             <h3 class="form-header2">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>        
             <h3 class="form-header">I'm always interested in hearing<br>about new projects, so if you'd<br>like to chat please get in touch.</h3>
                 <ul class="form-list">
@@ -242,5 +248,6 @@
             </ul>
         <h4 class="myemail">ungredda95@gmail.com</h4>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
