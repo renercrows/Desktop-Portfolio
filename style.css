@@ -1067,7 +1067,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .nav-menu.active {
-    left: 0px;
+    left: 0;
   }
 }
 
