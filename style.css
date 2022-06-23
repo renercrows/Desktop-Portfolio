@@ -1133,7 +1133,7 @@
     position: fixed;
     height: 100vh;
     width: 100%;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, 0.3);
     top: 0;
     left: 0;
   }
@@ -1166,7 +1166,6 @@
     background-color: #ebecf0;
     background-size: contain;
     font-family: inter, sans-serif;
-    flex-wrap: 50%;
     flex-grow: 0;
     flex-shrink: 0;
     height: 30%;
@@ -1206,7 +1205,7 @@
     padding: 12px 16px;
     border: none;
     background-color: #36b37f;
-    color: #ffffff;
+    color: #fff;
     border-radius: 4px;
     text-align: left;
   }
@@ -1542,7 +1541,7 @@
     position: fixed;
     height: 100vh;
     width: 100%;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, 0.3);
     top: 0;
     left: 0;
   }
@@ -1596,7 +1595,7 @@
     padding: 12px 16px;
     border: none;
     background-color: #36b37f;
-    color: #ffffff;
+    color: #fff;
     border-radius: 4px;
     text-align: left;
   }
