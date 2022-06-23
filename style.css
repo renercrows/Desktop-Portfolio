@@ -14,18 +14,6 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  html {
-    overflow-x: hidden;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
   .menu {
     display: flex;
     height: 28px;
@@ -34,6 +22,24 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .secondtitle {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    left: 24px;
+    top: 0;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #36b37e;
+    margin-top: 120px;
   }
 }
 
@@ -136,24 +142,6 @@
     letter-spacing: 0;
     text-align: center;
     color: #172b4d;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .secondtitle {
-    display: flex;
-    height: 70px;
-    width: 100%;
-    left: 24px;
-    top: 0;
-    font-family: Inter, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: center;
-    color: #36b37e;
-    margin-top: 120px;
   }
 }
 
@@ -453,20 +441,25 @@
     padding-left: 35px;
     margin-bottom: 100px;
     border-radius: 1px 0 3px 4px;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .card2 {
     display: grid;
+    justify-content: center;
     grid-auto-flow: row;
-    grid-gap: -10px -10px;
+    grid-gap: 30px 30px;
     font-family: inter, sans-serif;
-    grid-template-rows: repeat(6, 385px);
-    grid-template-columns: repeat(2, 300px);
-    padding-left: 35px;
-    padding-top: 530px;
-    margin-bottom: -1120px;
+    grid-template-rows: repeat(6, 160px);
+    grid-template-columns: repeat(1, 300px);
+    margin-bottom: 1200px;
+    margin-top: 350px;
+    border-radius: 1px 0 3px 4px;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
 }
 
@@ -1123,27 +1116,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .menu {
-    display: flex;
-    height: 18px;
-    width: 100%;
-    justify-content: center;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 28px;
-    gap: 60px;
-    list-style: none;
-    color: #172b4d;
-    margin-left: -60px;
-    animation-name: myFade;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-  }
-}
-
-@media screen and (min-width: 768px) {
   @keyframes myFade {
     0% {
       opacity: 0;
@@ -1259,6 +1231,27 @@
     display: flex;
     justify-content: center;
     margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-menu {
+    display: flex;
+    height: 18px;
+    width: 100%;
+    justify-content: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    gap: 60px;
+    list-style: none;
+    color: #172b4d;
+    margin-left: 300px;
+    animation-name: myFade;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
   }
 }
 
@@ -1740,6 +1733,7 @@
 
 @media screen and (min-width: 768px) {
   .form-list {
+    z-index: -1;
     display: grid;
     position: sticky;
     justify-content: center;
@@ -1847,23 +1841,10 @@
   .row2 {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 320px;
     width: 100%;
     gap: 5px;
     margin-left: -100px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  html {
-    overflow-x: hidden;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    overflow-x: hidden;
-    overflow-y: hidden;
   }
 }
 
@@ -1941,18 +1922,9 @@
 
 @media screen and (min-width: 768px) {
   h3 {
-    height: 57px;
-    width: 100%;
-    position: sticky;
-    left: 16px;
-    top: 16px;
     font-family: Inter, sans-serif;
     font-size: 24px;
     font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0;
-    text-align: center;
-    padding-top: 130px;
     color: #344563;
   }
 }
