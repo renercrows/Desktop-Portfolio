@@ -5,17 +5,12 @@ const navLogo = document.querySelector('.nav-logo');
 hamburguer.addEventListener('click', () => {
   hamburguer.classList.toggle('active');
   navMenu.classList.toggle('active');
-<<<<<<< HEAD
   navLogo.classList.toggle('active')
-=======
-  navLogo.classList.toggle('active');
->>>>>>> 2cf85ce9746fae8f06362ea8878cb51090385435
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
   hamburguer.classList.remove('active');
   navMenu.classList.remove('active');
-<<<<<<< HEAD
   navLogo.classList.toggle('active')
 }));
 
@@ -250,7 +245,3 @@ function closePopup() {
   document.querySelector('.visibility').classList.toggle('visibility');
   document.querySelector('.model-container').classList.toggle('show');
 }
-=======
-  navLogo.classList.toggle('active');
-}));
->>>>>>> 2cf85ce9746fae8f06362ea8878cb51090385435

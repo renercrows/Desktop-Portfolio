@@ -26,24 +26,6 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .secondtitle {
-    display: flex;
-    height: 70px;
-    width: 100%;
-    left: 24px;
-    top: 0;
-    font-family: Inter, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0;
-    text-align: center;
-    color: #36b37e;
-    margin-top: 120px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
   .nav-logo {
     height: 28px;
     width: 100%;
@@ -146,6 +128,24 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .secondtitle {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    left: 24px;
+    top: 0;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #36b37e;
+    margin-top: 120px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .middle {
     width: 100%;
     height: 647.9967651367188px;
@@ -160,6 +160,8 @@
     width: 100%;
     background-image: url(images/background2.png);
     height: 647.9967651367188px;
+    left: -126.380859375px;
+    top: 98.115234375px;
     border-radius: 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,7 +192,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .card1 {
     display: grid;
-    grid-column-start: 6;
+    grid-column-start: 2;
     grid-column-end: 3;
     height: 400px;
     width: 100%;
@@ -366,7 +368,6 @@
   .html1 {
     background-color: white;
     padding: 10px;
-    border-radius: 10px;
     margin-right: 8px;
     color: #36b37e;
   }
@@ -433,22 +434,12 @@
   .card {
     display: grid;
     justify-content: center;
-<<<<<<< HEAD
     grid-auto-flow: row;
     grid-gap: 30px 30px;
     font-family: inter, sans-serif;
     grid-template-rows: repeat(6, 433px);
     grid-template-columns: repeat(1, 300px);
     margin-bottom: 100px;
-=======
-    grid-auto-flow: column;
-    grid-gap: 90px 30px;
-    font-family: inter, sans-serif;
-    grid-template-rows: repeat(11, 160px);
-    grid-template-columns: repeat(1, 300px);
-    padding-left: 35px;
-    margin-bottom: 250px;
->>>>>>> 2cf85ce9746fae8f06362ea8878cb51090385435
     border-radius: 1px 0 3px 4px;
   }
 }
@@ -737,27 +728,11 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .form1 {
-    display: flex;
-    justify-content: left;
-    margin-top: 300%;
-    margin-bottom: -100%;
-    width: 100%;
-    background-image: url(images/item4.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: 200px;
-    height: 60%;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
   .cards1 {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid #d0d9d4;
     border-radius: 10px;
-    height: 430px;
   }
 }
 
@@ -912,6 +887,8 @@
     height: 363px;
     width: 100%;
     text-align: center;
+    left: 0;
+    top: 0;
     color: #172b4d;
     font-family: inter, sans-serif;
     font-size: 40px;
@@ -1089,7 +1066,6 @@
     text-align: left;
     transition: 0.3s;
     background-image: url(images/Overlay.png);
-    background-size: cover;
     background-repeat: no-repeat;
     color: #3a4a42;
   }
@@ -1289,7 +1265,6 @@
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< HEAD
   .nav-menu {
     display: flex;
     height: 18px;
@@ -1311,8 +1286,6 @@
 }
 
 @media screen and (min-width: 768px) {
-=======
->>>>>>> 2cf85ce9746fae8f06362ea8878cb51090385435
   @keyframes myFade {
     0% {
       opacity: 0;
@@ -1432,27 +1405,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .nav-menu {
-    display: flex;
-    height: 18px;
-    width: 100%;
-    justify-content: center;
-    font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 28px;
-    gap: 60px;
-    list-style: none;
-    color: #172b4d;
-    margin-left: 300px;
-    animation-name: myFade;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-  }
-}
-
-@media screen and (min-width: 768px) {
   .subtitle2 {
     display: flex;
     justify-content: center;
@@ -1478,14 +1430,9 @@
     font-family: inter, sans-serif;
     grid-template-rows: repeat(2, 150px);
     grid-template-columns: repeat(3, 310px);
-<<<<<<< HEAD
     margin-bottom: 280px;
     margin-top: 100px;
     row-gap: 300px;
-=======
-    margin-bottom: 200px;
-    margin-top: 80px;
->>>>>>> 2cf85ce9746fae8f06362ea8878cb51090385435
     border-radius: 1px 0 3px 4px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -1942,7 +1889,6 @@
 @media screen and (min-width: 768px) {
   .html1 {
     background-color: white;
-    border-radius: 10px;
     padding: 10px;
     margin-right: 8px;
     color: #36b37e;
