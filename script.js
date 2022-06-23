@@ -66,7 +66,7 @@ const workInfo = [
     title2: 'Keeping track of hundreds of components',
     languages: ['Ruby on rails', 'css', 'JavaScript'],
     lan: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-    info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry', 
+    info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     seelive: 'link-to-other-ptoject',
     linkCode: 'link-to-the-repository',
   },
@@ -84,7 +84,7 @@ const workInfo = [
     seelive: 'link-to-other-ptoject',
     linkCode: 'link-to-the-repository',
   },
-        
+
   {
     img: 'images/Snapshoot.png',
     closeImg: 'images/Enabled.png',
@@ -187,7 +187,7 @@ const createPopup = (num) => {
   model.appendChild(close);
   const closeBtn = document.createElement('img');
   closeBtn.setAttribute('src', num.closeImg);
-  closeBtn.setAttribute('onClick', 'closePopup()');
+  closeBtn.addEventListener('click', closePopup);
   close.appendChild(closeBtn);
   const imgInf = document.createElement('img');
   imgInf.setAttribute('src', num.img);
@@ -213,12 +213,13 @@ const createPopup = (num) => {
   linkImg2.setAttribute('src', num.sourceImg2);
   linkImg2.classList.add('icon2');
   secBtn2.appendChild(linkImg2);
-}; 
+};
 
 // creating of cards dinamically
 for (let i = 0; i < workInfo.length; i += 1) {
   createPopup(workInfo[i]);
-} 
+}
+
 for (let i = 0; i < workInfo.length; i += 1) {
   createCards(workInfo[i]);
 }
@@ -227,7 +228,6 @@ const modelLi = document.querySelectorAll('.model');
 const model = Array.from(modelLi);
 const projectBtn = document.querySelectorAll('.button1');
 const btnList = Array.from(projectBtn);
-const popBtnClose = document.querySelectorAll('.btn-popup');
 
 // functions for popup
 for (let i = 0; i < btnList.length; i += 1) {
