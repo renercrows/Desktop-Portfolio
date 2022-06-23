@@ -160,8 +160,6 @@
     width: 100%;
     background-image: url(images/background2.png);
     height: 647.9967651367188px;
-    left: -126.380859375px;
-    top: 98.115234375px;
     border-radius: 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -192,7 +190,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .card1 {
     display: grid;
-    grid-column-start: 2;
+    grid-column-start: 6;
     grid-column-end: 3;
     height: 400px;
     width: 100%;
@@ -368,6 +366,7 @@
   .html1 {
     background-color: white;
     padding: 10px;
+    border-radius: 10px;
     margin-right: 8px;
     color: #36b37e;
   }
@@ -433,16 +432,15 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .card {
     display: grid;
-    grid-auto-flow: row;
-    grid-gap: 30px 30px;
+    justify-content: center;
+    grid-auto-flow: column;
+    grid-gap: 90px 30px;
     font-family: inter, sans-serif;
-    grid-template-rows: repeat(6, 433px);
-    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(11, 160px);
+    grid-template-columns: repeat(1, 300px);
     padding-left: 35px;
-    margin-bottom: 100px;
+    margin-bottom: 250px;
     border-radius: 1px 0 3px 4px;
-    overflow-x: hidden;
-    overflow-y: hidden;
   }
 }
 
@@ -450,7 +448,7 @@
   .card2 {
     display: grid;
     justify-content: center;
-    grid-auto-flow: row;
+    grid-auto-flow: column;
     grid-gap: 30px 30px;
     font-family: inter, sans-serif;
     grid-template-rows: repeat(6, 160px);
@@ -722,11 +720,27 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .form1 {
+    display: flex;
+    justify-content: left;
+    margin-top: 300%;
+    margin-bottom: -100%;
+    width: 100%;
+    background-image: url(images/item4.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 200px;
+    height: 60%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .cards1 {
     display: flex;
     flex-wrap: wrap;
     border: 2px solid #d0d9d4;
     border-radius: 10px;
+    height: 430px;
   }
 }
 
@@ -881,8 +895,6 @@
     height: 363px;
     width: 100%;
     text-align: center;
-    left: 0;
-    top: 0;
     color: #172b4d;
     font-family: inter, sans-serif;
     font-size: 40px;
@@ -1054,6 +1066,7 @@
     text-align: left;
     transition: 0.3s;
     background-image: url(images/Overlay.png);
+    background-size: cover;
     background-repeat: no-repeat;
     color: #3a4a42;
   }
@@ -1275,13 +1288,13 @@
 @media screen and (min-width: 768px) {
   .card {
     display: grid;
+    justify-content: center;
     width: 100%;
     grid-auto-flow: column;
     grid-gap: 80px 30px;
     font-family: inter, sans-serif;
     grid-template-rows: repeat(4, 150px);
     grid-template-columns: repeat(3, 310px);
-    margin-left: 15%;
     margin-bottom: 200px;
     margin-top: 80px;
     border-radius: 1px 0 3px 4px;
@@ -1449,16 +1462,15 @@
 @media screen and (min-width: 768px) {
   .card2 {
     display: grid;
-    width: 100%;
     justify-content: center;
+    width: 92%;
     grid-auto-flow: column;
-    grid-gap: 80px 30px;
+    grid-gap: 80px 15px;
     font-family: inter, sans-serif;
-    grid-template-rows: repeat(2, 750px);
-    grid-template-columns: repeat(5, 310px);
-    margin-left: 350px;
-    padding-top: 59px;
-    margin-bottom: -1120px;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(3, 310px);
+    margin-bottom: 100px;
+    margin-top: 80px;
     border-radius: 1px 0 3px 4px;
   }
 }
@@ -1635,6 +1647,7 @@
 @media screen and (min-width: 768px) {
   .html1 {
     background-color: white;
+    border-radius: 10px;
     padding: 10px;
     margin-right: 8px;
     color: #36b37e;
@@ -1734,7 +1747,6 @@
 
 @media screen and (min-width: 768px) {
   .form-list {
-    z-index: -1;
     display: grid;
     position: sticky;
     justify-content: center;
@@ -1750,7 +1762,7 @@
 @media screen and (min-width: 768px) {
   .username {
     border-radius: 4px;
-    width: 136%;
+    width: 100%;
     height: 30px;
     border: none;
     outline: 1px solid #d0d9d4;
@@ -1799,14 +1811,14 @@
   .input-list {
     border-radius: 4px;
     display: flex;
-    width: 140%;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
   .textarea {
     border-radius: 4px;
-    width: 136%;
+    width: 100%;
     height: 110px;
     border: none;
     outline: 1px solid #60c095;
