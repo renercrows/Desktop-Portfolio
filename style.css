@@ -1055,6 +1055,7 @@
     transition: 0.3s;
     background-image: url(images/Overlay.png);
     background-repeat: no-repeat;
+    color: #3a4a42;
   }
 }
 
