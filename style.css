@@ -367,6 +367,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .html1 {
     background-color: white;
+    border-radius: 10px;
     padding: 10px;
     margin-right: 8px;
     color: #36b37e;
@@ -1424,9 +1425,9 @@
   .card {
     display: grid;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     grid-auto-flow: column;
-    grid-gap: 80px 30px;
+    grid-gap: 80px 15px;
     font-family: inter, sans-serif;
     grid-template-rows: repeat(2, 150px);
     grid-template-columns: repeat(3, 310px);
@@ -1434,8 +1435,6 @@
     margin-top: 100px;
     row-gap: 300px;
     border-radius: 1px 0 3px 4px;
-    overflow-x: hidden;
-    overflow-y: hidden;
   }
 }
 
@@ -1889,6 +1888,7 @@
 @media screen and (min-width: 768px) {
   .html1 {
     background-color: white;
+    border-radius: 10px;
     padding: 10px;
     margin-right: 8px;
     color: #36b37e;
