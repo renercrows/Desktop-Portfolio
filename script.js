@@ -182,6 +182,12 @@ const createPopup = (num) => {
     liPopup.textContent = `${num.languages[i]}`;
     ulPopup.appendChild(liPopup);
   }
+
+  function closePopup() {
+    document.querySelector('.visibility').classList.toggle('visibility');
+    document.querySelector('.model-container').classList.toggle('show');
+  }
+
   const close = document.createElement('a');
   close.classList.add('close');
   model.appendChild(close);
@@ -235,9 +241,4 @@ for (let i = 0; i < btnList.length; i += 1) {
     model[i].classList.toggle('visibility');
     popup.classList.add('show');
   });
-}
-
-function closePopup() {
-  document.querySelector('.visibility').classList.toggle('visibility');
-  document.querySelector('.model-container').classList.toggle('show');
 }
