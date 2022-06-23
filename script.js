@@ -5,13 +5,13 @@ const navLogo = document.querySelector('.nav-logo');
 hamburguer.addEventListener('click', () => {
   hamburguer.classList.toggle('active');
   navMenu.classList.toggle('active');
-  navLogo.classList.toggle('active')
+  navLogo.classList.toggle('active');
 });
 
 document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click', () => {
   hamburguer.classList.remove('active');
   navMenu.classList.remove('active');
-  navLogo.classList.toggle('active')
+  navLogo.classList.toggle('active');
 }));
 
 const workInfo = [
@@ -22,7 +22,7 @@ const workInfo = [
     sourceImg2: 'images/Icon2.png',
     title: 'Multi-Post Stories Gain+Glory',
     title2: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'css', 'JavaScript',],
+    languages: ['Ruby on rails', 'css', 'JavaScript'],
     lan: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     seelive: 'link-to-other-ptoject',
@@ -36,7 +36,7 @@ const workInfo = [
     sourceImg2: 'images/Icon2.png',
     title: 'Multi-Post Stories Gain+Glory',
     title2: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'css', 'JavaScript',],
+    languages: ['Ruby on rails', 'css', 'JavaScript'],
     lan: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     seelive: 'link-to-other-ptoject',
@@ -50,7 +50,7 @@ const workInfo = [
     sourceImg2: 'images/Icon2.png',
     title: 'Multi-Post Stories Gain+Glory',
     title2: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'css', 'JavaScript',],
+    languages: ['Ruby on rails', 'css', 'JavaScript'],
     lan: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     seelive: 'link-to-other-ptoject',
@@ -64,7 +64,7 @@ const workInfo = [
     sourceImg2: 'images/Icon2.png',
     title: 'Multi-Post Stories Gain+Glory',
     title2: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'css', 'JavaScript',],
+    languages: ['Ruby on rails', 'css', 'JavaScript'],
     lan: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry', 
     seelive: 'link-to-other-ptoject',
@@ -78,7 +78,7 @@ const workInfo = [
     sourceImg2: 'images/Icon2.png',
     title: 'Multi-Post Stories Gain+Glory',
     title2: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'css', 'JavaScript',],
+    languages: ['Ruby on rails', 'css', 'JavaScript'],
     lan: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     seelive: 'link-to-other-ptoject',
@@ -92,7 +92,7 @@ const workInfo = [
     sourceImg2: 'images/Icon2.png',
     title: 'Multi-Post Stories Gain+Glory',
     title2: 'Keeping track of hundreds of components',
-    languages: ['Ruby on rails', 'css', 'JavaScript',],
+    languages: ['Ruby on rails', 'css', 'JavaScript'],
     lan: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     info: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     seelive: 'link-to-other-ptoject',
@@ -116,16 +116,16 @@ const createCards = (num) => {
   const ul = document.createElement('ul');
   ul.classList.add('ul1');
   const ruby2 = document.createElement('li');
-  ruby2.classList.add('ruby2',);
+  ruby2.classList.add('ruby2');
   const css0 = document.createElement('li');
-  css0.classList.add('css0',);
+  css0.classList.add('css0');
   const java0 = document.createElement('li');
-  java0.classList.add('java0',);
+  java0.classList.add('java0');
   const html0 = document.createElement('li');
-  html0.classList.add('html0',);
+  html0.classList.add('html0');
 
-  var x = window.matchMedia('(min-width: 320px) and (max-width: 480px)')
-  if (x.matches) {
+  const z = window.matchMedia('(min-width: 320px) and (max-width: 480px)');
+  if (z.matches) {
     for (let i = 0; i < (num.languages).length; i += 1) {
       const liCard = document.createElement('li');
       liCard.textContent = `${num.languages[i]}`;
@@ -137,8 +137,8 @@ const createCards = (num) => {
     }
   }
 
-  var x = window.matchMedia('(min-width: 768px)')
-  if (x.matches) {
+  const y = window.matchMedia('(min-width: 768px)');
+  if (y.matches) {
     for (let i = 0; i < (num.lan).length; i += 1) {
       const liCard = document.createElement('li');
       liCard.textContent = `${num.lan[i]}`;
@@ -173,7 +173,6 @@ const createPopup = (num) => {
   popupTitle.classList.add('popup-title');
   popupTitle.textContent = num.title2;
   model.appendChild(popupTitle);
-  
   const ulPopup = document.createElement('ul');
   ulPopup.classList.add('popuplist');
   model.appendChild(ulPopup);
@@ -183,7 +182,6 @@ const createPopup = (num) => {
     liPopup.textContent = `${num.languages[i]}`;
     ulPopup.appendChild(liPopup);
   }
-  
   const close = document.createElement('a');
   close.classList.add('close');
   model.appendChild(close);
@@ -215,13 +213,12 @@ const createPopup = (num) => {
   linkImg2.setAttribute('src', num.sourceImg2);
   linkImg2.classList.add('icon2');
   secBtn2.appendChild(linkImg2);
-  // end of function for create popup
 }; 
+
 // creating of cards dinamically
 for (let i = 0; i < workInfo.length; i += 1) {
   createPopup(workInfo[i]);
 } 
-
 for (let i = 0; i < workInfo.length; i += 1) {
   createCards(workInfo[i]);
 }
@@ -231,7 +228,6 @@ const model = Array.from(modelLi);
 const projectBtn = document.querySelectorAll('.button1');
 const btnList = Array.from(projectBtn);
 const popBtnClose = document.querySelectorAll('.btn-popup');
-const btnCloseLi = Array.from(popBtnClose);
 
 // functions for popup
 for (let i = 0; i < btnList.length; i += 1) {
