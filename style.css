@@ -1151,10 +1151,20 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .close {
+    margin-left: 88%;
+    margin-top: 0.5%;
+    background-color: #ebf0ee;
+    width: 11%;
+    height: 6%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .popuplist {
     display: flex;
     position: fixed;
-    gap: 10%;
+    gap: 4%;
     top: 60%;
     left: -1%;
     font-family: Inter, sans-serif;
@@ -1165,12 +1175,14 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .popuplist li {
     background-color: #ebecf0;
+    padding: 4%;
+    font-size: 15px;
     background-size: contain;
     font-family: inter, sans-serif;
     flex-grow: 0;
     flex-shrink: 0;
     height: 30%;
-    border-radius: 1%;
+    border-radius: 5px;
   }
 }
 
@@ -1554,7 +1566,7 @@
     display: flex;
     position: fixed;
     top: 73%;
-    left: 23.5%;
+    left: 22.5%;
     width: 25%;
     list-style: none;
     gap: 5%;
@@ -1566,10 +1578,12 @@
 @media screen and (min-width: 768px) {
   .popuplist li {
     background-color: #ebecf0;
+    padding: 2%;
+    font-size: 14px;
     background-size: contain;
     font-family: inter, sans-serif;
     height: 30%;
-    border-radius: 1%;
+    border-radius: 4px;
   }
 }
 
@@ -2209,10 +2223,11 @@
   .close {
     display: flex;
     position: fixed;
-    width: 100%;
-    height: 5%;
-    top: 9%;
-    left: 24%;
+    background-color: #ebf0ee;
+    width: 2%;
+    height: 3.5%;
+    top: 9.3%;
+    left: 73.2%;
   }
 }
 
