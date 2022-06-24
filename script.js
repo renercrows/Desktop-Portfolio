@@ -124,30 +124,26 @@ const createCards = (num) => {
   const html0 = document.createElement('li');
   html0.classList.add('html0');
 
-  const z = window.matchMedia('(min-width: 320px) and (max-width: 480px)');
-  if (z.matches) {
-    for (let i = 0; i < (num.languages).length; i += 1) {
-      const liCard = document.createElement('li');
-      liCard.textContent = `${num.languages[i]}`;
-      ul.appendChild(liCard);
-      ul.appendChild(ruby2);
-      ul.appendChild(css0);
-      ul.appendChild(java0);
-      ul.appendChild(html0);
-    }
+  for (let i = 0; i < (num.languages).length; i += 1) {
+    const liCard2 = document.createElement('li');
+    liCard2.classList.add('list2');
+    liCard2.textContent = `${num.languages[i]}`;
+    ul.appendChild(liCard2);
+    ul.appendChild(ruby2);
+    ul.appendChild(css0);
+    ul.appendChild(java0);
+    ul.appendChild(html0);
   }
 
-  const y = window.matchMedia('(min-width: 768px)');
-  if (y.matches) {
-    for (let i = 0; i < (num.lan).length; i += 1) {
-      const liCard = document.createElement('li');
-      liCard.textContent = `${num.lan[i]}`;
-      ul.appendChild(liCard);
-      ul.appendChild(ruby2);
-      ul.appendChild(css0);
-      ul.appendChild(java0);
-      ul.appendChild(html0);
-    }
+  for (let i = 0; i < (num.lan).length; i += 1) {
+    const liCard = document.createElement('li');
+    liCard.classList.add('list1');
+    liCard.textContent = `${num.lan[i]}`;
+    ul.appendChild(liCard);
+    ul.appendChild(ruby2);
+    ul.appendChild(css0);
+    ul.appendChild(java0);
+    ul.appendChild(html0);
   }
 
   cardContainer.appendChild(ul);
@@ -242,3 +238,42 @@ for (let i = 0; i < btnList.length; i += 1) {
     popup.classList.add('show');
   });
 }
+
+// validation for email input
+
+const form = document.querySelector('form1');
+const inputEmail = document.querySelector('username');
+const spanEmail = document.querySelector('.email-span');
+
+const showMsg = (email, msg, validation) => {
+  email.classList.remove('error', 'succes');
+  email.className = validation ? 'succes' : 'error';
+  spanEmail.textContent = msg;
+  spanEmail.classList.add(validation ? 'succes' : 'error');
+  return validation;
+};
+
+const valSucces = (email) => showMsg(email, '', true);
+
+const valError = (email, msg) => showMsg(email, msg, false);
+
+const emailValidation = (email) => {
+  // in input is blanck
+  if (email.value.trim() === '') {
+    return valError(email, 'this space is in blank');
+  }
+
+  const emailReg = /^[a-z_\-0-9\]+@+[a-z\-0-9]+(.com)$/;
+
+  if (emailReg.test(email.value)) {
+    return valSucces(email);
+  }
+  return valError(email, 'this email is invalid or is on uppercase, please fix the problem to continue');
+};
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  if (emailValidation(inputEmail)) {
+    form.submit();
+  }
+});

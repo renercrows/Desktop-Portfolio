@@ -316,17 +316,22 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .list2 {
+  .list1 {
     display: flex;
-    width: 100%;
-    margin-left: -20px;
-    margin-right: -80px;
+    margin-left: -4.5%;
+    height: 30px;
     font-family: Inter, sans-serif;
+    background-color: #ebf0ee;
+    background-size: contain;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: 0.03em;
-    text-align: left;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }
 
@@ -550,14 +555,13 @@
   .ul1 {
     display: flex;
     width: 100%;
-    gap: 40px;
-    margin-left: -10px;
-    margin-right: -55px;
+    gap: 7%;
+    margin-left: -20px;
     font-family: Inter, sans-serif;
     font-size: 12px;
     font-weight: 600;
-    line-height: 16px;
     letter-spacing: 0.03em;
+    color: #3a4a42
   }
 }
 
@@ -565,24 +569,20 @@
   .ul2 {
     display: flex;
     width: 100%;
-    gap: 5px;
     margin-left: 30px;
     margin-right: -40px;
     font-family: Inter, sans-serif;
     font-size: 12px;
     font-weight: 600;
-    line-height: 16px;
     letter-spacing: 0.03em;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .ruby2 {
-    width: 28%;
     height: 10px;
     margin-top: -5px;
-    margin-left: -298px;
-    background-color: #ebf0ee;
+    margin-right: -90px;
     padding: 10px;
     color: #3a4a42;
     border-radius: 10px;
@@ -657,28 +657,12 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .css0 {
-    width: 13%;
-    height: 10px;
-    margin-top: -5px;
-    margin-left: -28px;
-    background-color: #ebf0ee;
-    padding: 10px;
-    color: #3a4a42;
-    border-radius: 10px;
     z-index: -1;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .java0 {
-    width: 20%;
-    height: 10px;
-    margin-top: -5px;
-    margin-left: -30px;
-    background-color: #ebf0ee;
-    padding: 10px;
-    color: #3a4a42;
-    border-radius: 10px;
     z-index: -1;
   }
 }
@@ -1111,6 +1095,12 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: black;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .list2 {
+    display: none;
   }
 }
 
@@ -2277,6 +2267,34 @@
     height: 4%;
     left: 72.5%;
     top: 67.5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #email-input.error {
+    border: 2px solid #f55800;
+    animation: invalid 1s;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .email-span.error {
+    margin-top: 12px;
+    display: flex;
+    width: 100%;
+    border: 2px solid #f55800;
+    padding: 2px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .list2 {
+    display: none;
   }
 }
 
