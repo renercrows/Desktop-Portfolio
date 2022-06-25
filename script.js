@@ -249,4 +249,3 @@ document.querySelector('.form1').addEventListener('submit', (event) => {
     emailError.classList.add('active');
   }
 });
-
