@@ -262,7 +262,7 @@ const storageName3 = document.querySelector('.username0');
 const storageEmail = document.querySelector('.username');
 const storageText = document.querySelector('.textarea');
 
-function handleChange() { //store in local storage
+function handleChange() { // store in local storage
   const formData = {
     firstName: username1.value,
     lastName: username2.value,
@@ -270,13 +270,13 @@ function handleChange() { //store in local storage
     email: username.value,
     tex: textarea.value,
   };
-  localStorage.setItem('form', JSON.stringify(formData)); //convert object to string
+  localStorage.setItem('form', JSON.stringify(formData)); // convert object to string
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  const getFormValue = localStorage.getItem('form'); //access from local storage
+  const getFormValue = localStorage.getItem('form'); // access from local storage
   if (getFormValue) {
-    const formObject = JSON.parse(getFormValue); //convert string back to object
+    const formObject = JSON.parse(getFormValue); // convert string back to object
     username1.value = formObject.firstName;
     username2.value = formObject.lastName;
     username0.value = formObject.fullName;
@@ -285,8 +285,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-username1.onchange = handleChange
-username2.onchange = handleChange
+username1.onchange = handleChange;
+username2.onchange = handleChange;
 username0.onchange = handleChange;
 username.onchange = handleChange;
 textarea.onchange = handleChange;
@@ -297,4 +297,3 @@ storageName2.value = localStorage.getItem('Last name');
 storageName3.value = localStorage.getItem('Full name');
 storageEmail.value = localStorage.getItem('Email');
 storageText.value = localStorage.getItem('TextArea');
-
