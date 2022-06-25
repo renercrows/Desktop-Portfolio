@@ -240,40 +240,12 @@ for (let i = 0; i < btnList.length; i += 1) {
 }
 
 // validation for email input
-
-const form = document.querySelector('form1');
-const inputEmail = document.querySelector('username');
-const spanEmail = document.querySelector('.email-span');
-
-const showMsg = (email, msg, validation) => {
-  email.classList.remove('error', 'succes');
-  email.className = validation ? 'succes' : 'error';
-  spanEmail.textContent = msg;
-  spanEmail.classList.add(validation ? 'succes' : 'error');
-  return validation;
-};
-
-const valSucces = (email) => showMsg(email, '', true);
-
-const valError = (email, msg) => showMsg(email, msg, false);
-
-const emailValidation = (email) => {
-  // in input is blanck
-  if (email.value.trim() === '') {
-    return valError(email, 'this space is in blank');
-  }
-
-  const emailReg = /^[a-z_\-0-9\]+@+[a-z\-0-9]+(.com)$/;
-
-  if (emailReg.test(email.value)) {
-    return valSucces(email);
-  }
-  return valError(email, 'this email is invalid or is on uppercase, please fix the problem to continue');
-};
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  if (emailValidation(inputEmail)) {
-    form.submit();
+document.querySelector('.form1').addEventListener('submit', (event) => {
+  const email = document.querySelector('.username').value;
+  if (email !== email.toLowerCase()) {
+    event.preventDefault();
+    const emailError = document.getElementById('error-message');
+    emailError.innerText = 'Email should be in lower case';
+    emailError.classList.add('active');
   }
 });

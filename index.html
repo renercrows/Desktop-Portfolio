@@ -116,23 +116,24 @@
             </div>
         </div>             
     </div>
-    <form class="form1" action="https://formspree.io/f/xqknnjke" method="post">
+    <form class="form1" action="https://formspree.io/f/xqknnjke" method="POST">
         <section class="section1" id="contact">
             <h3 class="form-header2">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>        
             <h3 class="form-header">I'm always interested in hearing<br>about new projects, so if you'd<br>like to chat please get in touch.</h3>
                 <ul class="form-list">
                     <li class="input-list">
-                        <input class="username1" type="text" maxlength="30" placeholder="First name" required>
-                        <input class="username2" type="text" maxlength="30" placeholder="Last name" required>
+                        <input class="username1" name="first-name" type="text" maxlength="30" placeholder="First name">
+                        <input class="username2" name="last-name2" type="text" maxlength="30" placeholder="Last name">
                     </li>
-                    <li><input name="name" class="username0" type="text" placeholder="Full name" maxlength="30" required></li>
-                    <li><input name="email" class="username" type="text" placeholder="Email-adress" required id="email-input"></li>
+                    <li><input name="name2" class="username0" type="text" placeholder="Full name" maxlength="30"></li>
+                    <li><input id="email" class="username" type="email" placeholder="email" required></li>
                     <li><textarea class="textarea" name="text" maxlength="500" placeholder="Enter text here" required></textarea></li>
                     <li>
+                        <p id="error-message" class="error-message"></p>          
+                    <li>
                         <div class="button-container">
-                            <button class="real-button">Get in touch</button>
+                            <button class="real-button" type="submit">Get in touch</button>
                         </div>
-                        <span class="email-span"></span>
                      </li>   
                 </ul>
         </section>
