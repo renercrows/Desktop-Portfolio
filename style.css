@@ -2280,7 +2280,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  #email-input.error {
+  #email-input .error {
     border: 2px solid #f55800;
     animation: invalid 1s;
     color: red;
@@ -2291,23 +2291,23 @@
   #error-message {
     color: red;
     margin-bottom: -19%;
-    margin-top: -5%;
+    margin-top: -598%;
   }
 }
 
-  .email-span.error {
-    margin-top: 12px;
-    display: flex;
-    width: 100%;
-    border: 2px solid #f55800;
-    padding: 2px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    color: red;
-  }
+.email-span .error {
+  margin-top: 12px;
+  display: flex;
+  width: 100%;
+  border: 2px solid #f55800;
+  padding: 2px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: red;
+}
 
 @media screen and (min-width: 768px) {
   .list2 {
