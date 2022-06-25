@@ -2280,7 +2280,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  #email-input .error {
+  #email-input.error {
     border: 2px solid #f55800;
     animation: invalid 1s;
     color: red;
@@ -2290,12 +2290,13 @@
 @media screen and (min-width: 768px) {
   #error-message {
     color: red;
-    margin-bottom: -19%;
-    margin-top: -598%;
+    margin-bottom: -100%;
+    margin-top: -5%;
   }
 }
 
-.email-span .error {
+
+.email-span.error {
   margin-top: 12px;
   display: flex;
   width: 100%;
