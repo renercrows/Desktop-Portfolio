@@ -249,3 +249,52 @@ document.querySelector('.form1').addEventListener('submit', (event) => {
     emailError.classList.add('active');
   }
 });
+
+// .................Preserving data using local storage........
+const username1 = document.querySelector('.username1');
+const username2 = document.querySelector('.username2');
+const username0 = document.querySelector('.username0');
+const username = document.querySelector('.username');
+const textarea = document.querySelector('.textarea');
+const storageName1 = document.querySelector('.username1');
+const storageName2 = document.querySelector('.username2');
+const storageName3 = document.querySelector('.username0');
+const storageEmail = document.querySelector('.username');
+const storageText = document.querySelector('.textarea');
+
+function handleChange() { //store in local storage
+  const formData = {
+    firstName: username1.value,
+    lastName: username2.value,
+    fullName: username0.value,
+    email: username.value,
+    tex: textarea.value,
+  };
+  localStorage.setItem('form', JSON.stringify(formData)); //convert object to string
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const getFormValue = localStorage.getItem('form'); //access from local storage
+  if (getFormValue) {
+    const formObject = JSON.parse(getFormValue); //convert string back to object
+    username1.value = formObject.firstName;
+    username2.value = formObject.lastName;
+    username0.value = formObject.fullName;
+    username.value = formObject.email;
+    textarea.value = formObject.tex;
+  }
+});
+
+username1.onchange = handleChange
+username2.onchange = handleChange
+username0.onchange = handleChange;
+username.onchange = handleChange;
+textarea.onchange = handleChange;
+
+// get values from local storage
+storageName1.value = localStorage.getItem('First name');
+storageName2.value = localStorage.getItem('Last name');
+storageName3.value = localStorage.getItem('Full name');
+storageEmail.value = localStorage.getItem('Email');
+storageText.value = localStorage.getItem('TextArea');
+
