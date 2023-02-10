@@ -1,10 +1,10 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   * {
     font-weight: 700;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -13,77 +13,77 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .menu {
     display: flex;
     height: 28px;
     width: 100%;
     font-family: Inter, sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 28px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-logo {
     height: 28px;
     width: 100%;
     font-family: Inter, sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 28px;
     margin-left: 30px;
     list-style: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-logo.active {
     opacity: 0;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .main-menu {
     margin-right: 30px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .visibility.active {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .row {
     display: flex;
     margin-left: -40px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .column {
     margin-left: 100px;
     margin-right: -80px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   a {
     color: inherit;
     text-decoration: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   li a:hover {
     background-color: rgb(109, 171, 207);
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   p {
     display: flex;
     height: 164px;
@@ -101,7 +101,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .toolbar {
     height: 12px;
     width: 100%;
@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   h1 {
     display: flex;
     height: 0;
@@ -127,7 +127,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .secondtitle {
     display: flex;
     height: 70px;
@@ -145,7 +145,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .middle {
     width: 100%;
     height: 647.9967651367188px;
@@ -155,7 +155,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .middle3 {
     width: 100%;
     background-image: url(images/background2.png);
@@ -168,13 +168,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   ul {
     list-style: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .disabled {
     margin-top: -60px;
     margin-left: 160px;
@@ -183,13 +183,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .spacing {
     margin-top: 60px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .card1 {
     display: grid;
     grid-column-start: 2;
@@ -200,7 +200,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header1 {
     width: 100%;
     background-color: #ebf0ee;
@@ -208,7 +208,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .subtitle0 {
     display: flex;
     justify-content: center;
@@ -227,13 +227,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .subtitle2 {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .subtitle3 {
     display: flex;
     justify-content: center;
@@ -252,7 +252,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .text {
     display: flex;
     justify-content: center;
@@ -269,13 +269,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .text0 {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .form-header2 {
     height: 57px;
     width: 295px;
@@ -283,7 +283,7 @@
     top: 16px;
     font-family: Inter, sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 32px;
     letter-spacing: 0;
     text-align: center;
@@ -292,20 +292,20 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .secondtitle1 {
     padding-top: 90px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .background3 {
     width: 100%;
     margin-top: 70px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .java2 {
     background-color: white;
     padding: 10px;
@@ -315,7 +315,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .list1 {
     display: flex;
     margin-left: -4.5%;
@@ -324,7 +324,7 @@
     background-color: #ebf0ee;
     background-size: contain;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-align: center;
@@ -335,7 +335,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .list3 {
     display: flex;
     width: 100%;
@@ -343,14 +343,14 @@
     margin-right: -80px;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-align: left;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .java1 {
     background-color: white;
     padding: 10px;
@@ -361,7 +361,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ruby1 {
     background-color: white;
     padding: 10px;
@@ -369,7 +369,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .html1 {
     background-color: white;
     border-radius: 10px;
@@ -379,7 +379,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .css2 {
     background-color: white;
     padding: 10px;
@@ -387,14 +387,14 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .css3 {
     background-color: white;
     padding: 10px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .css4 {
     background-color: white;
     padding: 10px;
@@ -402,7 +402,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .mainbutton {
     display: flex;
     justify-content: center;
@@ -410,7 +410,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .button {
     height: 48px;
     left: 92px;
@@ -430,13 +430,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .button :hover {
     background-color: #d0d9d4;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .card {
     display: grid;
     justify-content: center;
@@ -450,7 +450,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .card2 {
     display: grid;
     justify-content: center;
@@ -467,7 +467,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .blank {
     display: flex;
     background-color: #ebf0ee;
@@ -477,7 +477,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .blank2 {
     display: flex;
     background-color: #ebf0ee;
@@ -489,12 +489,12 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cardtitle {
     display: flex;
     align-items: center;
     font-family: Inter, sans-serif;
-    font-weight: 600;
+    font-weight: 767;
     font-size: 24px;
     padding-left: -40px;
     margin-top: 170px;
@@ -503,7 +503,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cardtitle2 {
     display: flex;
     align-items: center;
@@ -515,7 +515,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cardtitle0 {
     display: flex;
     align-items: center;
@@ -527,7 +527,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cardtitle3 {
     display: flex;
     align-items: center;
@@ -539,7 +539,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cardtitle4 {
     display: flex;
     align-items: center;
@@ -551,7 +551,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ul1 {
     display: flex;
     width: 100%;
@@ -559,13 +559,13 @@
     margin-left: -20px;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     letter-spacing: 0.03em;
     color: #3a4a42;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ul2 {
     display: flex;
     width: 100%;
@@ -573,12 +573,12 @@
     margin-right: -40px;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     letter-spacing: 0.03em;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ruby2 {
     height: 10px;
     margin-top: -5px;
@@ -590,7 +590,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ruby3 {
     width: 65px;
     margin-left: -23px;
@@ -601,7 +601,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ruby4 {
     width: 63px;
     margin-left: -23px;
@@ -612,7 +612,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ruby5 {
     width: 50px;
     margin-left: -33px;
@@ -623,7 +623,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .css6 {
     background-color: white;
     padding: 10px;
@@ -633,7 +633,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .css1 {
     background-color: white;
     padding: 10px;
@@ -643,7 +643,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .terminal1 {
     width: 55px;
     margin-left: -20px;
@@ -655,25 +655,25 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .css0 {
     z-index: -1;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .java0 {
     z-index: -1;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .html0 {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .selenium1 {
     background-color: white;
     padding: 10px;
@@ -683,7 +683,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ul0 {
     display: flex;
     width: 100%;
@@ -691,13 +691,13 @@
     margin-right: -40px;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 16px;
     letter-spacing: 0.03em;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ul3 {
     display: flex;
     width: 100%;
@@ -706,13 +706,13 @@
     margin-right: -40px;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 16px;
     letter-spacing: 0.03em;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cards1 {
     display: flex;
     flex-wrap: wrap;
@@ -721,7 +721,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .button1 {
     display: flex;
     height: 48px;
@@ -745,13 +745,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .button1 :hover {
     background-color: #d0d9d4;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .button2 {
     display: flex;
     justify-content: center;
@@ -774,13 +774,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .button2 :hover {
     background-color: #d0d9d4;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .languages {
     margin-bottom: -150px;
     padding-left: 75px;
@@ -790,7 +790,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .frameworks {
     margin-bottom: -150px;
     padding-left: 75px;
@@ -800,7 +800,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .skills {
     margin-bottom: -150px;
     padding-left: 75px;
@@ -810,7 +810,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .item2 {
     display: flex;
     align-items: flex-end;
@@ -819,7 +819,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   #error-message {
     color: red;
     margin-bottom: -100%;
@@ -829,19 +829,19 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .background3 {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .background4 {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .background1 {
     background-image: url(images/items1.png);
     height: 400px;
@@ -850,13 +850,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-link {
     transition: 0.7s ease;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .background2 {
     background-image: url(images/items2.png);
     height: 150px;
@@ -865,19 +865,19 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .form-container {
     width: 100%;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .form-header {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .form-header2 {
     height: 363px;
     width: 100%;
@@ -892,13 +892,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .ul1 .li {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .form-list {
     display: grid;
     flex-wrap: wrap;
@@ -908,13 +908,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .input-list {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .username0 {
     border-radius: 4px;
     width: 166%;
@@ -928,7 +928,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .username {
     border-radius: 4px;
     width: 166%;
@@ -942,7 +942,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .email {
     border-radius: 4px;
     width: 166%;
@@ -956,7 +956,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .textarea {
     border-radius: 4px;
     width: 165%;
@@ -970,7 +970,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .button-container {
     display: flex;
     align-content: center;
@@ -980,7 +980,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .real-button {
     padding-top: 13px;
     height: 48px;
@@ -995,7 +995,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .row2 {
     display: flex;
     background-position-x: right;
@@ -1004,7 +1004,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
     background-image: url(images/frame.png);
     background-repeat: no-repeat;
@@ -1016,7 +1016,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .myemail {
     padding-left: 90px;
     font-family: inter, sans-serif;
@@ -1025,31 +1025,31 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hamburguer {
     display: block;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hamburguer.active .bar:nth-child(2) {
     opacity: 0;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hamburguer.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .hamburguer.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-menu {
     position: fixed;
     left: -130%;
@@ -1066,37 +1066,37 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-menu.active {
     left: 0;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-item {
     margin: 16px 0;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-main {
     height: 28px;
     width: 100%;
     font-family: Inter, sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 767;
     margin-left: -20px;
     line-height: 28px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-main.active {
     display: block;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .bar {
     display: block;
     width: 25px;
@@ -1108,13 +1108,13 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .list2 {
     display: none;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .model-container .model {
     display: none;
     position: fixed;
@@ -1127,7 +1127,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .model-container.show {
     display: flex;
     flex-direction: column;
@@ -1140,7 +1140,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .snap {
     display: flex;
     position: fixed;
@@ -1150,7 +1150,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .close {
     margin-left: 88%;
     margin-top: 0.5%;
@@ -1160,7 +1160,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .popuplist {
     display: flex;
     position: fixed;
@@ -1172,7 +1172,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .popuplist li {
     background-color: #ebecf0;
     padding: 4%;
@@ -1186,7 +1186,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .model-container p {
     display: flex;
     position: fixed;
@@ -1197,7 +1197,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .model-container h3 {
     display: flex;
     position: fixed;
@@ -1212,7 +1212,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .model-container button {
     margin-left: -52%;
     padding: 12px 16px;
@@ -1224,7 +1224,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .model-container .button5 {
     display: flex;
     position: fixed;
@@ -1235,7 +1235,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .model-container .button6 {
     position: fixed;
     top: 85%;
@@ -1245,7 +1245,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .icon1 {
     position: fixed;
     height: 5%;
@@ -1254,7 +1254,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .icon2 {
     position: fixed;
     height: 5%;
@@ -1286,7 +1286,7 @@
     justify-content: center;
     font-family: Inter, sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 28px;
     gap: 60px;
     list-style: none;
@@ -1458,7 +1458,7 @@
     align-items: center;
     justify-content: center;
     font-family: Inter, sans-serif;
-    font-weight: 600;
+    font-weight: 767;
     font-size: 24px;
     margin-bottom: -50px;
     color: #3a4a42;
@@ -1477,7 +1477,7 @@
     justify-content: center;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 5px;
     letter-spacing: 0.03em;
     list-style: none;
@@ -1818,7 +1818,7 @@
     margin-top: 30px;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 16px;
     letter-spacing: 0.03em;
     list-style: none;
@@ -1898,7 +1898,7 @@
     margin-right: -40px;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 16px;
     letter-spacing: 0.03em;
     list-style: none;
@@ -1924,7 +1924,7 @@
     margin-right: -40px;
     font-family: Inter, sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 767;
     line-height: 16px;
     letter-spacing: 0.03em;
     list-style: none;
@@ -2145,7 +2145,7 @@
     background-repeat: no-repeat;
     background-position-x: left;
     background-size: 200px;
-    margin-top: -480px;
+    margin-top: -767px;
     height: 300px;
   }
 }
@@ -2197,7 +2197,7 @@
   h3 {
     font-family: Inter, sans-serif;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 767;
     color: #344563;
   }
 }
